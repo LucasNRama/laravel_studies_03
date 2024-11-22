@@ -2,5 +2,5 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::view('/home', 'home');
+Route::view('/home', 'home', ['myName' => "LucasNRama"]);
 
